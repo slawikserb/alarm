@@ -1,0 +1,43 @@
+.box{
+    position: fixed;
+    bottom: 20px;
+    /* text-align: center;
+    align-items: center; */
+    /* top: 90%; */
+    left: 40%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; */
+}
+
+.modal_time{
+    background: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* text-size-adjust: 40px; */
+    font-size: 40px;
+}
+
+.button_create{
+    display: table-cell;
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    
+    /* border: 0px inset rgba(255, 255, 255, 1); */
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: red;
+    
+    /* margin-top: 10px; */
+    /* padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%; */
+}

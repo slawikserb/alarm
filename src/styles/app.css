@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(1, 1, 214);
+    /* box-sizing: border-box; */
+}
+
+/* #root {
+    display: flex;
+    justify-content: center;
+} */
+
+.app {
+    width: 800px;
+}

@@ -1,0 +1,32 @@
+.alarm_box {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid; */
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* cursor: pointer; */
+    /* align-items: center; */
+}
+
+.alarms {
+    /* display: flex; */
+    /* padding: 15px; */
+    border-bottom: 1px solid;
+    /* justify-content: space-between; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    /* align-items: center; */
+}
+
+.alarm_time {
+    display: flex;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    
+
+}

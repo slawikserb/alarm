@@ -1,0 +1,134 @@
+.alarm {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid; */
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    /* align-items: center; */
+}
+.alarm_test {
+    /* display: flex; */
+    /* padding: 15px; */
+    border-bottom: 1px solid;
+    /* justify-content: space-between; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    /* align-items: center; */
+}
+
+.alarm_time {
+    display: flex;
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    
+
+}
+.alarm_day{
+    font-size: 20px; 
+    color: rgba(255, 255, 255, 1);
+}
+
+.alarm_button_seting{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.alarm_day_off {
+    /* display: flex; */
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 2px;
+    max-height: 2px;
+    margin-left: 2%;
+    background: rgba(255,255,255,0);
+    /* padding: 17px; */
+    font-size: 20px;
+    /* justify-content: center;
+    align-items: center;
+    border: 2px inset rgba(255, 255, 255, 0); */
+    border-radius: 50%;
+    /* text-indent: 15px; */
+    padding: 3%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.alarm_day_on {
+
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 2px;
+    max-height: 2px;
+    margin-left: 2%;
+    background: rgba(255,255,255,1);
+    /* padding: 17px; */
+    font-size: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 2px inset rgba(255, 255, 255, 1); */
+    border-radius: 50%;
+    padding: 3%;
+    
+    text-align: center;
+    /* text-indent: 15px; */
+    /* padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%; */
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.setting_days {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+    /* justify-content: space-between; */
+}
+
+
+
+
+
+
+.checkbox-custom{
+    opacity: 0;
+    cursor: pointer;
+}
+.checkbox-custom + label::before{
+    content: '\2713'; 
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+/* line-height: 1em; */
+width: 1em;
+height: 1em;
+border: 2px inset rgba(255,255,255,1);
+border-radius: 0.25em;
+margin: 0.25em;
+display: inline-block;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+.checkbox-custom:checked + label::before {
+    color: rgba(255, 255, 255, 1);
+    border: 2px inset rgba(255, 255, 255, 1);
+    display: inline-block;
+    cursor: pointer;
+    }
+
+.checkbox-custom-label{
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-size: 20px;
+}
+
